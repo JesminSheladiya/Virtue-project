@@ -1,0 +1,55 @@
+
+/* Stats Section  */
+.hair-treatment  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+@media (min-width: 768px) {
+  .hair-treatment  .stats-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1024px) {
+  .hair-treatment  .stats-grid { grid-template-columns: repeat(5, 1fr); }
+}
+
+
+/* Timeline Section */
+.hair-treatment .timeline-container{
+    grid-template-columns: repeat(1fr);
+}
+
+@media (min-width: 768px) {
+  .hair-treatment .timeline-container{
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Trust Pillars Section */
+@media (min-width: 768px) {
+.hair-treatment .trust-grid .mt-offset{
+    margin-top: 7rem;
+    margin-bottom: -7rem;
+}
+}
+
+
+/* Patient Reviews Section*/
+.hair-treatment .testimonials .google-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* final-cta */
+.hair-treatment .final-cta p{
+    margin-bottom: 0;
+}
+
+.hair-treatment .final-cta a{
+    margin: 3rem 0;
+}
+.hair-treatment .final-cta .cta-box p{
+    max-width: 100%;
+}
+    
+    

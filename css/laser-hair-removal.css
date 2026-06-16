@@ -1,0 +1,28 @@
+
+.laser-hair-removal .trust-pillars .trust-content .trust-reason-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    .laser-hair-removal .trust-pillars .trust-content .trust-reason-cards{
+        grid-template-columns: 2fr 2fr;
+    }
+}
+.laser-hair-removal .trust-pillars .trust-content .trust-reason-cards .trust-reason-card{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--surface-container-low);
+}
+.laser-hair-removal .trust-pillars .trust-content .trust-reason-cards .trust-reason-card h5{
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.laser-hair-removal .trust-pillars .trust-content .trust-reason-cards .trust-reason-card p{
+    color: var(--on-surface-variant);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
