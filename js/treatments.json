@@ -40,6 +40,14 @@
     "href": "./eyebrow-enhancement.html"
   },
   {
+    "title": "Chemical Peel Treatment",
+    "desc": "Targeted skin renewal treatment that lifts away dead skin, reduces pigmentation, and improves overall clarity and tone. Custom-formulated for Indian skin with progressive visible refinement.",
+    "beforeImg": "./images/chemical-peel/banner/before.jpg",
+    "afterImg": "./images/chemical-peel/banner/after.jpg",
+    "alt": "Chemical Peel Treatment Ambattur",
+    "href": "./chemical-peel.html"
+  },
+  {
     "title": "CO₂ Laser",
     "desc": "Fractional CO₂ laser resurfacing for scars, wrinkles, and uneven skin texture. Clinically proven, long-lasting results.",
     "beforeImg": "./images/co2-laser/banner/before.jpg",
@@ -54,6 +62,14 @@
     "afterImg": "./images/eczema/banner/after.jpg",
     "alt": "Eczema Treatment Ambattur",
     "href": "./eczema.html"
+  },
+  {
+    "title": "Exfoliation and Extraction Treatment",
+    "desc": "Professional deep pore cleansing that clears congestion, removes buildup, and refines uneven skin texture. Leaves skin visibly cleaner, smoother, and more balanced without irritation.",
+    "beforeImg": "./images/exfoliation-extraction/banner/before.jpg",
+    "afterImg": "./images/exfoliation-extraction/banner/after.jpg",
+    "alt": "Exfoliation and Extraction Treatment Ambattur",
+    "href": "./exfoliation-extraction.html"
   },
   {
     "title": "Facials & Chemical Peels",

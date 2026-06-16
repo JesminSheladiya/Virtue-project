@@ -269,9 +269,8 @@ a {
 
 .mega-menu {
   position: absolute;
-  top: calc(100% + 1rem);
-  left: 50%;
-  transform: translateX(-50%);
+  top: calc(100% + 32px);
+  left: 130%;
   background: var(--surface-container-lowest);
   border-radius: var(--radius-md);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
@@ -281,7 +280,7 @@ a {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
-  transform: translateX(-50%) translateY(6px);
+  transform: translateX(-50%);
   min-width: 600px;
   z-index: 100;
 }
@@ -299,12 +298,7 @@ a {
   gap: 0.25rem 2rem;
 }
 
-.mega-menu-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.mega-menu-col a {
+.mega-menu-inner a {
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius-md);
   font-size: 0.875rem;
@@ -315,13 +309,19 @@ a {
   transition: background 0.15s, color 0.15s;
 }
 
-.mega-menu-col a:hover {
+.mega-menu-inner a:hover {
   background: var(--primary);
   color: var(--on-primary);
   border-bottom: none;
 }
 
-/* ── Mobile Mega Menu ── */
+@media (max-height: 600px) {
+  .mega-menu {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .mega-menu-wrapper {
     display: flex;
@@ -329,7 +329,7 @@ a {
     width: 100%;
   }
 
-  .mega-menu-wrapper > .mega-menu-trigger {
+  .mega-menu-wrapper>.mega-menu-trigger {
     justify-content: space-between;
     width: 100%;
     padding: 0.75rem 0;
@@ -353,12 +353,13 @@ a {
   }
 
   .mega-menu-wrapper.mega-open .mega-menu {
-    max-height: 600px;
+    max-height: 70vh;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     padding: 0 0 0.5rem 1rem;
     transform: none;
+    overflow-y: auto;
   }
 
   .mega-menu-inner {
@@ -366,7 +367,7 @@ a {
     gap: 0;
   }
 
-  .mega-menu-col a {
+  .mega-menu-inner a {
     padding: 0.6rem 0.5rem;
     font-size: 0.9rem;
   }
