@@ -9,7 +9,7 @@
   },
   {
     "title": "Aesthetic Add-Ons",
-    "desc": "Botox, fillers, and other aesthetic enhancements to complement your core treatment plan for a refreshed, natural look.",
+    "desc": "Fillers, and other aesthetic enhancements to complement your core treatment plan for a refreshed, natural look.",
     "beforeImg": "./images/aesthetic-add-ons/banner/before.jpg",
     "afterImg": "./images/aesthetic-add-ons/banner/after.jpg",
     "alt": "Aesthetic Add-Ons Ambattur",
@@ -142,14 +142,6 @@
     "afterImg": "./images/pigmentation-melasma/banner/after.jpg",
     "alt": "Pigmentation Melasma Treatment Ambattur",
     "href": "./pigmentation-melasma.html"
-  },
-  {
-    "title": "Hair Transplant",
-    "desc": "Restore your natural hairline with advanced FUE techniques. Permanent, natural-looking results supervised by our dermatologist.",
-    "beforeImg": "./images/hair-transplant/banner/before.jpg",
-    "afterImg": "./images/hair-transplant/banner/after.jpg",
-    "alt": "Hair Transplant Ambattur",
-    "href": "./hair-transplant.html"
   },
   {
     "title": "PRP Treatment for Face",

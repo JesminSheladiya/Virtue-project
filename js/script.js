@@ -101,6 +101,28 @@ function initMobileMenu() {
 document.addEventListener('DOMContentLoaded', initMobileMenu);
 if (document.readyState !== 'loading') initMobileMenu();
 
+// Mega Menu Click Toggle
+(function initMegaMenu() {
+    const wrapper = document.querySelector('.mega-menu-wrapper');
+    const trigger = wrapper?.querySelector('.mega-menu-trigger');
+    if (!wrapper || !trigger) return;
+
+    trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        wrapper.classList.toggle('mega-open');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!wrapper.contains(e.target)) {
+            wrapper.classList.remove('mega-open');
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') wrapper.classList.remove('mega-open');
+    });
+})();
+
 
 // Handle slider interactivity via event delegation (fixes DOM load timing issues)
 const processSliderInteraction = (e) => {
