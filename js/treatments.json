@@ -5,7 +5,7 @@
     "beforeImg": "./images/acne-scar/banner/before.jpg",
     "afterImg": "./images/acne-scar/banner/after.jpg",
     "alt": "Acne Scar Treatment Ambattur",
-    "href": "./acne-scar.html"
+    "href": "./acne-scar-ambattur"
   },
   {
     "title": "Aesthetic Add-Ons",
@@ -13,7 +13,7 @@
     "beforeImg": "./images/aesthetic-add-ons/banner/before.jpg",
     "afterImg": "./images/aesthetic-add-ons/banner/after.jpg",
     "alt": "Aesthetic Add-Ons Ambattur",
-    "href": "./aesthetic-add-ons.html"
+    "href": "./aesthetic-add-ons-ambattur"
   },
   {
     "title": "Anti-Aging Treatment",
@@ -21,7 +21,7 @@
     "beforeImg": "./images/anti-aging/banner/before.jpg",
     "afterImg": "./images/anti-aging/banner/after.jpg",
     "alt": "Anti-Aging Dermatologist Ambattur",
-    "href": "./anti-aging.html"
+    "href": "./anti-aging-ambattur"
   },
   {
     "title": "Body Contouring",
@@ -29,7 +29,7 @@
     "beforeImg": "./images/body-contouring/banner/before.jpg",
     "afterImg": "./images/body-contouring/banner/after.jpg",
     "alt": "Body Contouring Ambattur",
-    "href": "./body-contouring.html"
+    "href": "./body-contouring-ambattur"
   },
   {
     "title": "Brow Enhancement",
@@ -37,7 +37,7 @@
     "beforeImg": "./images/eyebrow-enhancement/banner/before.jpg",
     "afterImg": "./images/eyebrow-enhancement/banner/after.jpg",
     "alt": "Eyebrow Enhancement Ambattur",
-    "href": "./eyebrow-enhancement.html"
+    "href": "./eyebrow-enhancement-ambattur"
   },
   {
     "title": "Chemical Peel Treatment",
@@ -45,15 +45,15 @@
     "beforeImg": "./images/chemical-peel/banner/before.jpg",
     "afterImg": "./images/chemical-peel/banner/after.jpg",
     "alt": "Chemical Peel Treatment Ambattur",
-    "href": "./chemical-peel-ambattur.html"
+    "href": "./chemical-peel-ambattur"
   },
   {
-    "title": "CO₂ Laser",
-    "desc": "Fractional CO₂ laser resurfacing for scars, wrinkles, and uneven skin texture. Clinically proven, long-lasting results.",
+    "title": "CO\u2082 Laser",
+    "desc": "Fractional CO\u2082 laser resurfacing for scars, wrinkles, and uneven skin texture. Clinically proven, long-lasting results.",
     "beforeImg": "./images/co2-laser/banner/before.jpg",
     "afterImg": "./images/co2-laser/banner/after.jpg",
     "alt": "CO2 Laser Ambattur",
-    "href": "./co2-laser.html"
+    "href": "./co2-laser-ambattur"
   },
   {
     "title": "Eczema Treatment",
@@ -61,7 +61,7 @@
     "beforeImg": "./images/eczema/banner/before.jpg",
     "afterImg": "./images/eczema/banner/after.jpg",
     "alt": "Eczema Treatment Ambattur",
-    "href": "./eczema.html"
+    "href": "./eczema-ambattur"
   },
   {
     "title": "Exfoliation and Extraction Treatment",
@@ -69,7 +69,7 @@
     "beforeImg": "./images/exfoliation-extraction/banner/before.jpg",
     "afterImg": "./images/exfoliation-extraction/banner/after.jpg",
     "alt": "Exfoliation and Extraction Treatment Ambattur",
-    "href": "./exfoliation-extraction.html"
+    "href": "./exfoliation-extraction-ambattur"
   },
   {
     "title": "Facials & Chemical Peels",
@@ -77,7 +77,7 @@
     "beforeImg": "./images/facial/banner/before.jpg",
     "afterImg": "./images/facial/banner/after.jpg",
     "alt": "Hydra Facial Chemical Peel Ambattur",
-    "href": "./facial-hydra-glow.html"
+    "href": "./facial-hydra-glow-ambattur"
   },
   {
     "title": "Hair Transplant",
@@ -85,7 +85,15 @@
     "beforeImg": "./images/hair-transplant/banner/before.jpg",
     "afterImg": "./images/hair-transplant/banner/after.jpg",
     "alt": "Hair Transplant Ambattur",
-    "href": "./hair-transplant.html"
+    "href": "./hair-transplant-ambattur"
+  },
+  {
+    "title": "Hair Treatment",
+    "desc": "Advanced hair rejuvenation and scalp care solutions using medical-grade treatments for healthier, stronger hair growth.",
+    "beforeImg": "./images/hair-treatment/banner/before.jpg",
+    "afterImg": "./images/hair-treatment/banner/after.jpg",
+    "alt": "Hair Treatment Ambattur",
+    "href": "./hair-treatment-ambattur"
   },
   {
     "title": "HIFU / RF / MNRF",
@@ -93,7 +101,7 @@
     "beforeImg": "./images/hifu-rf-mnrf/banner/before.jpg",
     "afterImg": "./images/hifu-rf-mnrf/banner/after.jpg",
     "alt": "HIFU RF MNRF Ambattur",
-    "href": "./hifu-rf-mnrf.html"
+    "href": "./hifu-rf-mnrf-ambattur"
   },
   {
     "title": "Laser Hair Removal",
@@ -101,7 +109,7 @@
     "beforeImg": "./images/laser-hair-removal/banner/before.jpg",
     "afterImg": "./images/laser-hair-removal/banner/after.jpg",
     "alt": "Laser Hair Removal Ambattur",
-    "href": "./laser-hair-removal.html"
+    "href": "./laser-hair-removal-ambattur"
   },
   {
     "title": "Laser Tattoo Removal",
@@ -109,7 +117,7 @@
     "beforeImg": "./images/laser-tattoo-removal/banner/before.jpg",
     "afterImg": "./images/laser-tattoo-removal/banner/after.jpg",
     "alt": "Laser Tattoo Removal Ambattur Chennai",
-    "href": "./laser-tattoo-removal.html"
+    "href": "./laser-tattoo-removal-ambattur"
   },
   {
     "title": "Lash Enhancements",
@@ -117,7 +125,7 @@
     "beforeImg": "./images/lash-enhancements/banner/before.jpg",
     "afterImg": "./images/lash-enhancements/banner/after.jpg",
     "alt": "Lash Enhancements Ambattur",
-    "href": "./lash-enhancements.html"
+    "href": "./lash-enhancements-ambattur"
   },
   {
     "title": "Lip Pigmentation",
@@ -125,7 +133,7 @@
     "beforeImg": "./images/lips/banner/before.jpg",
     "afterImg": "./images/lips/banner/after.jpg",
     "alt": "Lip Pigmentation Treatment Ambattur",
-    "href": "./lip-pigmentation.html"
+    "href": "./lip-pigmentation-ambattur"
   },
   {
     "title": "Mesotherapy",
@@ -133,7 +141,7 @@
     "beforeImg": "./images/mesotherapy/banner/before.jpg",
     "afterImg": "./images/mesotherapy/banner/after.jpg",
     "alt": "Mesotherapy Ambattur",
-    "href": "./mesotherapy.html"
+    "href": "./mesotherapy-ambattur"
   },
   {
     "title": "Micro Pigmentation",
@@ -141,7 +149,7 @@
     "beforeImg": "./images/micro-pigmentation/banner/before.jpg",
     "afterImg": "./images/micro-pigmentation/banner/after.jpg",
     "alt": "Micro Pigmentation Ambattur",
-    "href": "./micro-pigmentation.html"
+    "href": "./micro-pigmentation-ambattur"
   },
   {
     "title": "PICO / Carbon Laser",
@@ -149,15 +157,15 @@
     "beforeImg": "./images/pico-carbon-laser/banner/before.jpg",
     "afterImg": "./images/pico-carbon-laser/banner/after.jpg",
     "alt": "PICO Carbon Laser Ambattur",
-    "href": "./pico-carbon-laser.html"
+    "href": "./pico-carbon-laser-ambattur"
   },
   {
     "title": "Pigmentation & Melasma",
-    "desc": "Targeted protocols to even out dark patches, sun damage, and melasma — carefully customised for Indian skin tones.",
+    "desc": "Targeted protocols to even out dark patches, sun damage, and melasma \u2014 carefully customised for Indian skin tones.",
     "beforeImg": "./images/pigmentation-melasma/banner/before.jpg",
     "afterImg": "./images/pigmentation-melasma/banner/after.jpg",
     "alt": "Pigmentation Melasma Treatment Ambattur",
-    "href": "./pigmentation-melasma.html"
+    "href": "./pigmentation-melasma-ambattur"
   },
   {
     "title": "PRP Treatment for Face",
@@ -165,7 +173,7 @@
     "beforeImg": "./images/prp-face/banner/before.jpg",
     "afterImg": "./images/prp-face/banner/after.jpg",
     "alt": "PRP Face Treatment Ambattur",
-    "href": "./prp-face.html"
+    "href": "./prp-face-ambattur"
   },
   {
     "title": "Psoriasis Treatment",
@@ -173,7 +181,7 @@
     "beforeImg": "./images/psoriasis/banner/before.jpg",
     "afterImg": "./images/psoriasis/banner/after.jpg",
     "alt": "Psoriasis Treatment Ambattur",
-    "href": "./psoriasis.html"
+    "href": "./psoriasis-ambattur"
   },
   {
     "title": "RF Microneedling",
@@ -181,7 +189,7 @@
     "beforeImg": "./images/rf-microneedling/banner/before.jpg",
     "afterImg": "./images/rf-microneedling/banner/after.jpg",
     "alt": "RF Microneedling Ambattur",
-    "href": "./rf-microneedling.html"
+    "href": "./rf-microneedling-ambattur"
   },
   {
     "title": "Scar Revision",
@@ -189,7 +197,7 @@
     "beforeImg": "./images/scar-revision/banner/before.jpg",
     "afterImg": "./images/scar-revision/banner/after.jpg",
     "alt": "Scar Revision Ambattur",
-    "href": "./scar-revision.html"
+    "href": "./scar-revision-ambattur"
   },
   {
     "title": "Skin Tightening",
@@ -197,7 +205,7 @@
     "beforeImg": "./images/skin-tightening/banner/before.jpg",
     "afterImg": "./images/skin-tightening/banner/after.jpg",
     "alt": "Skin Tightening Ambattur",
-    "href": "./skin-tightening.html"
+    "href": "./skin-tightening-ambattur"
   },
   {
     "title": "Stretch Mark Revision",
@@ -205,7 +213,7 @@
     "beforeImg": "./images/stretch-mark/banner/before.jpg",
     "afterImg": "./images/stretch-mark/banner/after.jpg",
     "alt": "Stretch Mark Revision Ambattur",
-    "href": "./stretch-mark-revision.html"
+    "href": "./stretch-mark-revision-ambattur"
   },
   {
     "title": "Tan Removal",
@@ -213,7 +221,7 @@
     "beforeImg": "./images/tan-removal/banner/before.jpg",
     "afterImg": "./images/tan-removal/banner/after.jpg",
     "alt": "Tan Removal Ambattur",
-    "href": "./tan-removal.html"
+    "href": "./tan-removal-ambattur"
   },
   {
     "title": "Vitiligo Treatment",
@@ -221,7 +229,7 @@
     "beforeImg": "./images/vitiligo/banner/before.jpg",
     "afterImg": "./images/vitiligo/banner/after.jpg",
     "alt": "Vitiligo Treatment Ambattur",
-    "href": "./vitiligo.html"
+    "href": "./vitiligo-ambattur"
   },
   {
     "title": "Wart Removal",
@@ -229,6 +237,6 @@
     "beforeImg": "./images/wart-removal/banner/before.jpg",
     "afterImg": "./images/wart-removal/banner/after.jpg",
     "alt": "Wart Removal Ambattur",
-    "href": "./wart-removal.html"
+    "href": "./wart-removal-ambattur"
   }
 ]
