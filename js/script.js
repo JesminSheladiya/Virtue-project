@@ -54,7 +54,8 @@ document.addEventListener("DOMContentLoaded", function() {
 function initMobileMenu() {
     const mobileToggle = document.querySelector('.mobile-nav-toggle');
     const navLinksContainer = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links a');
+    const regularNavLinks = document.querySelectorAll('.nav-links a:not(.mega-menu-trigger)');
+    const megaMenuLinks = document.querySelectorAll('.mega-menu-inner a');
 
     if (!mobileToggle || !navLinksContainer) return;
 
@@ -72,6 +73,9 @@ function initMobileMenu() {
     function closeMenu() {
         mobileToggle.classList.remove('active');
         navLinksContainer.classList.remove('active');
+        // Also close mega menu if open
+        const megaWrapper = document.querySelector('.mega-menu-wrapper');
+        if (megaWrapper) megaWrapper.classList.remove('mega-open');
     }
 
     mobileToggle.addEventListener('click', (e) => {
@@ -79,8 +83,13 @@ function initMobileMenu() {
         toggleMenu();
     });
 
-    // Close menu when clicking a link
-    navLinks.forEach(link => {
+    // Close menu when clicking regular nav links (not mega menu trigger)
+    regularNavLinks.forEach(link => {
+        link.addEventListener('click', closeMenu);
+    });
+
+    // Close menu when clicking mega menu links
+    megaMenuLinks.forEach(link => {
         link.addEventListener('click', closeMenu);
     });
 
@@ -105,11 +114,19 @@ if (document.readyState !== 'loading') initMobileMenu();
 (function initMegaMenu() {
     const wrapper = document.querySelector('.mega-menu-wrapper');
     const trigger = wrapper?.querySelector('.mega-menu-trigger');
+    const megaMenuLinks = wrapper?.querySelectorAll('.mega-menu-inner a');
     if (!wrapper || !trigger) return;
 
     trigger.addEventListener('click', (e) => {
         e.preventDefault();
         wrapper.classList.toggle('mega-open');
+    });
+
+    // Close mega menu when clicking any mega menu link
+    megaMenuLinks?.forEach(link => {
+        link.addEventListener('click', () => {
+            wrapper.classList.remove('mega-open');
+        });
     });
 
     document.addEventListener('click', (e) => {
