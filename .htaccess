@@ -1,31 +1,142 @@
+<IfModule mod_rewrite.c>
 RewriteEngine On
 
-# 301 Redirects from old .html URLs to new -ambattur.html URLs
-RewriteRule ^acne-scar\.html$ /acne-scar-ambattur.html [R=301,L]
-RewriteRule ^lip-pigmentation\.html$ /lip-pigmentation-ambattur.html [R=301,L]
-RewriteRule ^facial-hydra-glow\.html$ /facial-hydra-glow-ambattur.html [R=301,L]
-RewriteRule ^lash-enhancements\.html$ /lash-enhancements-ambattur.html [R=301,L]
-RewriteRule ^aesthetic-add-ons\.html$ /aesthetic-add-ons-ambattur.html [R=301,L]
-RewriteRule ^stretch-mark-revision\.html$ /stretch-mark-revision-ambattur.html [R=301,L]
-RewriteRule ^mesotherapy\.html$ /mesotherapy-ambattur.html [R=301,L]
-RewriteRule ^laser-hair-removal\.html$ /laser-hair-removal-ambattur.html [R=301,L]
-RewriteRule ^eyebrow-enhancement\.html$ /eyebrow-enhancement-ambattur.html [R=301,L]
-RewriteRule ^treatment/exfoliation-extraction\.html$ /treatment/exfoliation-extraction-ambattur.html [R=301,L]
-RewriteRule ^micro-pigmentation\.html$ /micro-pigmentation-ambattur.html [R=301,L]
-RewriteRule ^hifu-rf-mnrf\.html$ /hifu-rf-mnrf-ambattur.html [R=301,L]
-RewriteRule ^pico-carbon-laser\.html$ /pico-carbon-laser-ambattur.html [R=301,L]
-RewriteRule ^body-contouring\.html$ /body-contouring-ambattur.html [R=301,L]
-RewriteRule ^anti-aging\.html$ /anti-aging-ambattur.html [R=301,L]
-RewriteRule ^laser-tattoo-removal\.html$ /laser-tattoo-removal-ambattur.html [R=301,L]
-RewriteRule ^co2-laser\.html$ /co2-laser-ambattur.html [R=301,L]
-RewriteRule ^hair-transplant\.html$ /hair-transplant-ambattur.html [R=301,L]
-RewriteRule ^eczema\.html$ /eczema-ambattur.html [R=301,L]
-RewriteRule ^rf-microneedling\.html$ /rf-microneedling-ambattur.html [R=301,L]
-RewriteRule ^scar-revision\.html$ /scar-revision-ambattur.html [R=301,L]
-RewriteRule ^skin-tightening\.html$ /skin-tightening-ambattur.html [R=301,L]
-RewriteRule ^psoriasis\.html$ /psoriasis-ambattur.html [R=301,L]
-RewriteRule ^wart-removal\.html$ /wart-removal-ambattur.html [R=301,L]
-RewriteRule ^tan-removal\.html$ /tan-removal-ambattur.html [R=301,L]
-RewriteRule ^pigmentation-melasma\.html$ /pigmentation-melasma-ambattur.html [R=301,L]
-RewriteRule ^vitiligo\.html$ /vitiligo-ambattur.html [R=301,L]
-RewriteRule ^prp-face\.html$ /prp-face-ambattur.html [R=301,L]
+# ---- 301 REDIRECTS: .html URLs → clean URLs ----
+
+# Specific redirects for mapped pages (old .html → new -ambattur)
+RewriteCond %{THE_REQUEST} /acne-scar\.html [NC]
+RewriteRule ^acne-scar\.html$ /acne-scar-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /lip-pigmentation\.html [NC]
+RewriteRule ^lip-pigmentation\.html$ /lip-pigmentation-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /facial-hydra-glow\.html [NC]
+RewriteRule ^facial-hydra-glow\.html$ /facial-hydra-glow-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /lash-enhancements\.html [NC]
+RewriteRule ^lash-enhancements\.html$ /lash-enhancements-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /aesthetic-add-ons\.html [NC]
+RewriteRule ^aesthetic-add-ons\.html$ /aesthetic-add-ons-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /stretch-mark-revision\.html [NC]
+RewriteRule ^stretch-mark-revision\.html$ /stretch-mark-revision-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /mesotherapy\.html [NC]
+RewriteRule ^mesotherapy\.html$ /mesotherapy-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /laser-hair-removal\.html [NC]
+RewriteRule ^laser-hair-removal\.html$ /laser-hair-removal-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /eyebrow-enhancement\.html [NC]
+RewriteRule ^eyebrow-enhancement\.html$ /eyebrow-enhancement-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /treatment/exfoliation-extraction\.html [NC]
+RewriteRule ^treatment/exfoliation-extraction\.html$ /treatment/exfoliation-extraction-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /micro-pigmentation\.html [NC]
+RewriteRule ^micro-pigmentation\.html$ /micro-pigmentation-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /hifu-rf-mnrf\.html [NC]
+RewriteRule ^hifu-rf-mnrf\.html$ /hifu-rf-mnrf-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /pico-carbon-laser\.html [NC]
+RewriteRule ^pico-carbon-laser\.html$ /pico-carbon-laser-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /body-contouring\.html [NC]
+RewriteRule ^body-contouring\.html$ /body-contouring-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /anti-aging\.html [NC]
+RewriteRule ^anti-aging\.html$ /anti-aging-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /laser-tattoo-removal\.html [NC]
+RewriteRule ^laser-tattoo-removal\.html$ /laser-tattoo-removal-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /co2-laser\.html [NC]
+RewriteRule ^co2-laser\.html$ /co2-laser-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /hair-transplant\.html [NC]
+RewriteRule ^hair-transplant\.html$ /hair-transplant-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /eczema\.html [NC]
+RewriteRule ^eczema\.html$ /eczema-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /rf-microneedling\.html [NC]
+RewriteRule ^rf-microneedling\.html$ /rf-microneedling-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /scar-revision\.html [NC]
+RewriteRule ^scar-revision\.html$ /scar-revision-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /skin-tightening\.html [NC]
+RewriteRule ^skin-tightening\.html$ /skin-tightening-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /psoriasis\.html [NC]
+RewriteRule ^psoriasis\.html$ /psoriasis-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /wart-removal\.html [NC]
+RewriteRule ^wart-removal\.html$ /wart-removal-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /tan-removal\.html [NC]
+RewriteRule ^tan-removal\.html$ /tan-removal-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /pigmentation-melasma\.html [NC]
+RewriteRule ^pigmentation-melasma\.html$ /pigmentation-melasma-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /vitiligo\.html [NC]
+RewriteRule ^vitiligo\.html$ /vitiligo-ambattur [R=301,L]
+
+RewriteCond %{THE_REQUEST} /prp-face\.html [NC]
+RewriteRule ^prp-face\.html$ /prp-face-ambattur [R=301,L]
+
+# Redirect index.html to root
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# General 301 redirect for any remaining .html URL to clean URL
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ---- INTERNAL REWRITES: clean URLs → .html files ----
+
+# Specific rewrites: -ambattur clean URLs serve the original .html content
+RewriteRule ^acne-scar-ambattur$ acne-scar.html [L]
+RewriteRule ^lip-pigmentation-ambattur$ lip-pigmentation.html [L]
+RewriteRule ^facial-hydra-glow-ambattur$ facial-hydra-glow.html [L]
+RewriteRule ^lash-enhancements-ambattur$ lash-enhancements.html [L]
+RewriteRule ^aesthetic-add-ons-ambattur$ aesthetic-add-ons.html [L]
+RewriteRule ^stretch-mark-revision-ambattur$ stretch-mark-revision.html [L]
+RewriteRule ^mesotherapy-ambattur$ mesotherapy.html [L]
+RewriteRule ^laser-hair-removal-ambattur$ laser-hair-removal.html [L]
+RewriteRule ^eyebrow-enhancement-ambattur$ eyebrow-enhancement.html [L]
+RewriteRule ^treatment/exfoliation-extraction-ambattur$ exfoliation-extraction.html [L]
+RewriteRule ^micro-pigmentation-ambattur$ micro-pigmentation.html [L]
+RewriteRule ^hifu-rf-mnrf-ambattur$ hifu-rf-mnrf.html [L]
+RewriteRule ^pico-carbon-laser-ambattur$ pico-carbon-laser.html [L]
+RewriteRule ^body-contouring-ambattur$ body-contouring.html [L]
+RewriteRule ^anti-aging-ambattur$ anti-aging.html [L]
+RewriteRule ^laser-tattoo-removal-ambattur$ laser-tattoo-removal.html [L]
+RewriteRule ^co2-laser-ambattur$ co2-laser.html [L]
+RewriteRule ^hair-transplant-ambattur$ hair-transplant.html [L]
+RewriteRule ^eczema-ambattur$ eczema.html [L]
+RewriteRule ^rf-microneedling-ambattur$ rf-microneedling.html [L]
+RewriteRule ^scar-revision-ambattur$ scar-revision.html [L]
+RewriteRule ^skin-tightening-ambattur$ skin-tightening.html [L]
+RewriteRule ^psoriasis-ambattur$ psoriasis.html [L]
+RewriteRule ^wart-removal-ambattur$ wart-removal.html [L]
+RewriteRule ^tan-removal-ambattur$ tan-removal.html [L]
+RewriteRule ^pigmentation-melasma-ambattur$ pigmentation-melasma.html [L]
+RewriteRule ^vitiligo-ambattur$ vitiligo.html [L]
+RewriteRule ^prp-face-ambattur$ prp-face.html [L]
+
+# General internal rewrite: any clean URL → .html file if it exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+</IfModule>
+
+# Security: deny access to hidden files
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
